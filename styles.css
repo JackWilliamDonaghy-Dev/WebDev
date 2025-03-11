@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nav-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+/* Home section is smaller */
+.home {
+    background: black;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Other sections */
+.events { background: green; }
+.prog { background: lightblue; }
+.team { background: steelblue; }
+
+/* Background Colors for Pages */
+.events-bg { background: green; color: white; }
+.prog-bg { background: lightblue; color: black; }
+.team-bg { background: steelblue; color: white; }
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+
+    nav {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .nav-item {
+        flex: 1;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .home {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
