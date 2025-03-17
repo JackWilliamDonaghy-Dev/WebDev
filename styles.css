@@ -15,6 +15,21 @@ html, body {
     height: 100vh;
 }
 
+footer {
+
+    padding:10px;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #000000;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
 /* Sidebar */
 .sidebar {
     width: 200px;
@@ -155,3 +170,11 @@ background-color: rgb(94, 196, 179);
 .columnDetail li {
     padding-top: 20px;
 }
+
+/* HOME */
+
+aside {
+    float: right;
+    text-align: center;
+}
+
