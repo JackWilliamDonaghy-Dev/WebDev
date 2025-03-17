@@ -103,7 +103,7 @@ input {
 .interaction {
     float: right;
     border-radius: 5px;
-    background-color: rgb(142, 255, 215);
+    background-color: lightblue;
     padding: 50px;
     max-width: 410px;
     min-width: 400px;
@@ -131,19 +131,27 @@ input {
 /* EVENTS */
 
 .event {
-padding: 10%;
-margin: 5%;
+padding: 20px;
+margin-left: 5%;
+margin-top: 2%;
 border-radius: 25px;
 background-color: rgb(94, 196, 179);
 }
 
 .event h2 {
-    font-size: 2em;
+    font-size: 1.4em;
+    padding-left: 100px;
+    text-decoration: none;
 }
 
-.column-det {
+.columnDetail {
     columns: 3;
     column-rule: 2px solid white;
     column-gap: 50px;
     padding: 2px;
+    padding-top: 10px;
+}
+
+.columnDetail li {
+    padding-top: 20px;
 }
