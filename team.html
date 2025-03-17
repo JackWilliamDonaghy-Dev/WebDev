@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="team-bg">
-    <div class="container">
+    <section class="container">
         <aside class="sidebar">
             <nav>
                 <a href="events.html" class="nav-item events">
-                    <img src="https://source.unsplash.com/200x100/?event" alt="Events Image">
+                    <img src="images/mario.jpg" alt="Events Image">
                     Events
                 </a>
                 <a href="prog.html" class="nav-item prog">
-                    <img src="https://source.unsplash.com/200x100/?programming" alt="Programming Image">
+                    <img src="images/birds_passing.jpg" alt="Programming Image">
                     Prog
                 </a>
                 <a href="team.html" class="nav-item team">
-                    <img src="https://source.unsplash.com/200x100/?team" alt="Team Image">
+                    <img src="images/man_sitting.jpg" alt="Team Image">
                     Team
                 </a>
                 <a href="Home.html" class="nav-item home">Home</a>
@@ -30,7 +30,31 @@
                 <h1>TEAM</h1>
             </header>
             <p>Welcome to the Team page!</p>
+            <section class="interaction">
+                <h2>Join the Team!</h2>
+                <p class="subtext">fill in your info</p>
+                <form action="http:/foo.com" method="get">
+                    <label for="first_name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required  placeholder="Johnny">
+                    <label for="last_name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required placeholder="Boi">
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="text" name="email" id="email" required placeholder="JohnnyBoi@example.com">
+                    <fieldset>
+                        <legend>Role</legend>
+                        <input type="radio" name="Role" id="musicTeam" value="Music Team">
+                        <label for="musicTeam">Music Team</label><br>
+                        <input type="radio" name="Role" id="youthTeam" value="Youth Team">
+                        <label for="youthTeam">Youth Team</label><br>
+                        <input type="radio" name="Role" id="childTeam" value="Children's Team">
+                        <label for="childTeam">Children's team</label><br>
+                        <input type="radio" name="Role" id="catTeam" value="Catering Team">
+                        <label for="catTeam">Catering Team</label>
+                    </fieldset>
+                    <input type="submit" id="button" value="Register">
+                    <input type="reset" name="reset" id="reset">
+                </form>
         </main>
-    </div>
+    </section>
 </body>
 </html>
