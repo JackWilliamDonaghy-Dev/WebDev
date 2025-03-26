@@ -64,6 +64,39 @@ nav {
     margin-bottom: 5px;
 }
 
+article {
+    background-image: url('images/birds_passing.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5%;
+    margin: 10px;
+    width: 60%;
+}
+
+.birds {background-image: url('images/birds_passing.jpg');}
+.Mario {background-image: url('images/Mario.jpg');}
+.WelcomeHome {background-image: url('images/WelcomeHome.jpg');}
+.Man {background-image: url('images/man_sitting.jpg');}
+.Foot {background-image: url('images/Football_background.jpg');}
+
+
+article h2 {
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    padding: 2%;
+    margin: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article p {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    padding: 2%;
+    margin: 2%;
+}
+
 /* Home section is smaller */
 .home {
     color: black;
@@ -93,6 +126,7 @@ header h1 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-left: 2%;
 }
 
 
