@@ -160,11 +160,14 @@ input {
 
 .interaction {
     float: right;
+    top: 0;
     border-radius: 5px;
     background-color: lightblue;
     padding: 50px;
-    max-width: 410px;
-    min-width: 400px;
+    min-width: 250px;
+    max-width: 270px;
+    height: 100%;
+    position: sticky;
     text-align: center;
     color: black;
 }
@@ -174,8 +177,8 @@ input {
 }
 
 .interaction form {
-    margin-top: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .subtext {
@@ -236,10 +239,11 @@ aside {
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 40px;
     padding: 20px;
     margin: 10px;
     border-radius: 25px;
-    background-image: linear-gradient(180deg, lightblue 0%,rgb(121, 201, 228) 100%);
+    background-image: linear-gradient(180deg, lightblue 0%,steelblue 100%);
     justify-content: space-around;
     align-items: center;
     min-width: 320px;
@@ -255,4 +259,80 @@ aside {
     padding: 10px;
     max-height: 2.5em;
 }
+
+/* TEAM */
+
+/*
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-width: 500px;
+    max-width: 600px;
+}
+*/
+
+.team-container {
+    margin: 20px auto;
+    max-width: 400px;
+    min-width: 300px;
+    background-image: linear-gradient(180deg, rgb(67, 139, 255) 0%,rgb(144, 248, 255) 100%);
+    padding: 5%;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-flex {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.team-item {
+    flex: 1 1 auto;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.team-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+.team-item + .team-item {
+    border-top: solid 1px white;
+}
+
+.team-item td {
+
+    padding-left: 10px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+td img {
+    width: 24px;
+    height: 24px;
+}
+
+
 
