@@ -127,6 +127,7 @@ header h1 {
     font-weight: bold;
     margin-bottom: 10px;
     margin-left: 2%;
+    text-align: left;
 }
 
 h2 {
@@ -162,7 +163,7 @@ input {
     float: right;
     top: 0;
     border-radius: 5px;
-    background-color: lightblue;
+    background-image: linear-gradient(0deg, #464bb4 0%, #4682b4 50%,#46b4af 100%);
     padding: 50px;
     min-width: 250px;
     max-width: 270px;
@@ -276,9 +277,9 @@ aside {
     margin: 20px auto;
     max-width: 400px;
     min-width: 300px;
-    background-image: linear-gradient(180deg, rgb(67, 139, 255) 0%,rgb(144, 248, 255) 100%);
+    background-image: linear-gradient(180deg, #699bc4 0%,#b47846 100%);
     padding: 5%;
-    border-radius: 10%;
+    border-radius: 20px;
     box-shadow: 5px 5px 5px black;
     display: flex;
     flex-direction: column;
